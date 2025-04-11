@@ -12,7 +12,7 @@ function TodoList() {
       ) : (
         todos.map((todo) => <TodoItem key={todo.id} todo={todo} />)
       )}
-       <button onClick={()=> removeAll()}>Clear All</button>
+       <button onClick={()=> removeAll()} style={{padding:"6px",cursor:"pointer",backgroundColor:"red",borderRadius:"8px"}}>Clear All</button>
     </ul>
   );
 }

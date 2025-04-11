@@ -21,12 +21,13 @@ function TodoItem({ todo }) {
   };
 
   return (
-    <li style={{ position: "relative", display: "flex", padding: "10px" }}>
+    <li style={{ position: "relative", display: "flex",paddingInline:"20px",paddingBlock:"10px",width:"300px",margin:"auto",backgroundColor:"gray" }}>
       <span
         style={{
           textAlign: "center",
           fontSize: "20px",
-          padding: "2px",
+          padding: "8px",
+          width:"150px",
           cursor: "pointer",
           backgroundColor:"white",
           border:"2px solid blue",
